@@ -1,0 +1,188 @@
+{
+  "devices_status": [
+    {
+      "name": null,
+      "model": "MX67",
+      "serial": "Q2FY-ZRME-6R34",
+      "firmware": "wired-18-2-11",
+      "connection_status": "unknown",
+      "uptime": "N/A",
+      "ports_status": "N/A"
+    }
+  ],
+  "clients_data": [],
+  "firewall_rules": {
+    "rules": [
+      {
+        "comment": "Default rule",
+        "policy": "allow",
+        "protocol": "Any",
+        "srcPort": "Any",
+        "srcCidr": "Any",
+        "destPort": "Any",
+        "destCidr": "Any",
+        "syslogEnabled": false
+      }
+    ]
+  },
+  "vlans": [
+    {
+      "id": 1,
+      "networkId": "L_838795430597760433",
+      "name": "Default",
+      "applianceIp": "192.168.128.1",
+      "subnet": "192.168.128.0/24",
+      "fixedIpAssignments": {},
+      "reservedIpRanges": [],
+      "dnsNameservers": "upstream_dns",
+      "dhcpHandling": "Run a DHCP server",
+      "dhcpLeaseTime": "1 day",
+      "dhcpBootOptionsEnabled": false,
+      "dhcpOptions": [],
+      "interfaceId": "838795430599309687",
+      "ipv6": {
+        "enabled": false
+      },
+      "mandatoryDhcp": {
+        "enabled": false
+      }
+    },
+    {
+      "id": 10,
+      "networkId": "L_838795430597760433",
+      "name": "Splunk",
+      "applianceIp": "10.10.10.1",
+      "subnet": "10.10.10.0/24",
+      "fixedIpAssignments": {},
+      "reservedIpRanges": [],
+      "dnsNameservers": "upstream_dns",
+      "dhcpHandling": "Run a DHCP server",
+      "dhcpLeaseTime": "1 day",
+      "dhcpBootOptionsEnabled": false,
+      "dhcpOptions": [],
+      "interfaceId": "838795430599309688",
+      "ipv6": {
+        "enabled": false
+      },
+      "mandatoryDhcp": {
+        "enabled": false
+      }
+    }
+  ],
+  "ssids": [
+    {
+      "name": "Office Trujillo - wireless WiFi",
+      "enabled": true,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 2",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 3",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 4",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 5",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 6",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 7",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 8",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 9",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 10",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 11",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 12",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 13",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 14",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    },
+    {
+      "name": "Unconfigured SSID 15",
+      "enabled": false,
+      "bandwidth_limit": "N/A"
+    }
+  ],
+  "events": {
+    "message": "No  matching events found between Dec 13 09:20 and Jan 13 09:20.",
+    "pageStartAt": "2013-12-13T17:20:04.488557Z",
+    "pageEndAt": "2025-01-13T17:20:04.488557Z",
+    "events": []
+  },
+  "threats": [],
+  "ha_status": [
+    {
+      "networkId": "N_838795430597779832",
+      "networkName": "Cloud Hub rio-Rio de Janeiro",
+      "deviceSerial": "Q2EZ-CK8K-XNUX",
+      "deviceStatus": "dormant",
+      "uplinks": [],
+      "vpnMode": "hub",
+      "exportedSubnets": [],
+      "merakiVpnPeers": [],
+      "thirdPartyVpnPeers": []
+    },
+    {
+      "networkId": "N_838795430597779833",
+      "networkName": "Cloud Hub rio-Sao Paulo",
+      "deviceSerial": "Q2EZ-DNXH-XCHG",
+      "deviceStatus": "dormant",
+      "uplinks": [],
+      "vpnMode": "hub",
+      "exportedSubnets": [],
+      "merakiVpnPeers": [],
+      "thirdPartyVpnPeers": []
+    }
+  ],
+  "geo_locations": [
+    {
+      "name": null,
+      "model": "MX67",
+      "latitude": 37.4180951010362,
+      "longitude": -122.098531723022
+    }
+  ]
+}

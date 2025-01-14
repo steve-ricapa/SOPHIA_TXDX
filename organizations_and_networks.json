@@ -1,0 +1,36 @@
+[
+  {
+    "org_id": "838795430597755362",
+    "name": "NuBank",
+    "networks": [
+      {
+        "network_id": "L_838795430597760427",
+        "name": "LAB-TXDX"
+      },
+      {
+        "network_id": "L_838795430597760432",
+        "name": "Office Lima"
+      },
+      {
+        "network_id": "L_838795430597760433",
+        "name": "Office Trujillo"
+      },
+      {
+        "network_id": "L_838795430597760434",
+        "name": "Azure"
+      },
+      {
+        "network_id": "N_838795430597779748",
+        "name": "Secure Connect"
+      },
+      {
+        "network_id": "N_838795430597779832",
+        "name": "Cloud Hub rio-Rio de Janeiro"
+      },
+      {
+        "network_id": "N_838795430597779833",
+        "name": "Cloud Hub rio-Sao Paulo"
+      }
+    ]
+  }
+]
